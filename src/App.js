@@ -28,15 +28,15 @@ export default function App() {
             },
           }
         );
-              console.log(response.data);
+             // console.log(response.data);
         setWeatherData(response.data);
         setCity(city);
       } catch (err) {
-        console.error("Error fetching data", err);
+        //console.log("Error fetching data", err.message);
         alert("Failed to fetch weather data");
       } finally {
         setIsLoading(false);
-        setCity("");
+        
       }
     
     
