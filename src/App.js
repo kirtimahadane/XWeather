@@ -32,6 +32,7 @@ export default function App() {
         setWeatherData(response.data);
         setCity(city);
       } catch (err) {
+        
         //console.log("Error fetching data", err.message);
         alert("Failed to fetch weather data");
       } finally {
@@ -41,6 +42,7 @@ export default function App() {
     
     
   }
+
   useEffect(()=>{
     handleSearch()
   

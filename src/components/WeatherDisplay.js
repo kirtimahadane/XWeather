@@ -4,7 +4,7 @@ import WeatherCard from "./WeatherCard";
 const WeatherDisplay = ({ isLoading, weatherData}) => {
   
   return (
-    <div className="weather-display">
+    <div className="weather-cards">
       {isLoading && <p>Loading data...</p>}
       {!isLoading && weatherData && (
         <>

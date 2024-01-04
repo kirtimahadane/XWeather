@@ -28,7 +28,7 @@
   color: #fff;
   cursor: pointer;
 }
-.weather-display {
+.weather-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

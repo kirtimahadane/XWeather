@@ -10,6 +10,7 @@ const Searchbar = ({ city, setCity, onSearch, placeholder}) => {
         onChange={(e)=>setCity(e.target.value)}
         placeholder={placeholder}
         autoComplete="off"
+        name="city"
       />
       <button type="submit">Search</button>
 
